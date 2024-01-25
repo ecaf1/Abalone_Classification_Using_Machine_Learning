@@ -66,12 +66,32 @@ Uma vez que a variavel whole_weight, como podemos observar no Hotmap, é a varia
 
 ## Modelos De Apredisagem Utilizados 
 
+<img src="images/DALL·E.png" width="800">
 
+---
+
+> "A revolução no software que está a acontecer... vai surpreender as pessoas na medida em que, dentro de cinco anos, os melhores programas de software farão coisas que você não acredita."
+>
+> — **Bill Gates**
+
+---
 ### Falando Um Pouco Sobre SVM
 
 
-### Falando Um Pouco Sobre Rando florestes
+O Support Vector Machine (SVM) é um modelo de aprendizado de máquina poderoso e versátil, usado tanto para classificação quanto para regressão. Em termos simples, o SVM tenta encontrar um hiperplano ou conjunto de hiperplanos em um espaço de alta dimensão que possa separar com distinção as diferentes classes de dados. 
 
+<img src="images/SVM_graficos.png">
+
+
+### Funções do Kernel 
+Kernels são funções matemáticas utilizadas pelo SVM para transformar o espaço de entrada em um novo espaço, mais apropriado para a separação das classes. Esta transformação é fundamental, especialmente quando os dados de entrada não são linearmente separáveis no espaço original. Ao aplicar um kernel, o SVM é capaz de realizar classificações complexas e não lineares, encontrando um hiperplano ótimo em um espaço de maior dimensão.
+
+<img src="images/Screenshot from 2024-01-25 16-58-34.png">
+
+### Configuração C
+Ele controla a compensação entre alcançar um hiperplano de separação com uma margem máxima e minimizar a classificação errada de pontos de treinamento.
+
+<img src= "images/c.jpg">
 
 
 ## Tratamento Dos Dados 
