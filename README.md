@@ -35,7 +35,6 @@ Analize indespensavel para compriender melhor como está distribuido as variavei
 
 <img src="images/histogramas.png"/>
 
-### Graficos De Dispersão
 
 
 ### Distribuição e Variação das Dimensões Físicas e Peso do Abalone por Tipo
@@ -47,6 +46,20 @@ Analize crucial para detecção de caracteristica que podem ser essenciais para 
 Note que as correlações são esperadas em virtude da natureza das variaveis que são medidas do abalone em sua maioria.
 
 <img src="images/hotmap.png" width="800">
+
+
+### Graficos De Dispersão
+Uma vez que a variavel whole_weight, como podemos observar no Hotmap, é a variavel que possui maior relação com as demais ela será usada como base para gerar grafico de disperção com linhas de tendência o que iremos usar para amenizar ruidos.
+<p aligi="center">
+    <img src="images/disperção_1.png" width="450">
+    <img src="images/disperção_2.png" width="450">
+    <img src="images/disperção_3.png" width="450">
+</p>
+<p aligi="center">
+    <img src="images/disperção_4.png" width="450">
+    <img src="images/disperção_5.png" width="450">
+    <img src="images/disperção_6.png" width="450">
+</p>
 
 ## Considerações Iniciasis 
 
