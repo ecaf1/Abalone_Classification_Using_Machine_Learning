@@ -61,7 +61,6 @@ Uma vez que a variavel whole_weight, como podemos observar no Hotmap, é a varia
     <img src="images/disperção_6.png" width="450">
 </p>
 
-## Considerações Iniciasis 
 
 
 ## Modelos De Apredisagem Utilizados 
@@ -94,19 +93,34 @@ Ele controla a compensação entre alcançar um hiperplano de separação com um
 <img src= "images/c.jpg">
 
 
-## Tratamento Dos Dados 
-
-## Resultados Obtidos
-
 
 ## Extra
 
-### T-SNE
+### T-SNE: t-Distributed Stochastic Neighbour Embedding2
+####  (t-SNE, pronunciado tí-ciní) é uma técnica de visualização em 1D, 2D ou 3D de datasets de altas dimensões.
+<img src="images/equação_t-sne.png">
 
-### GridSearchCV
+### Aplicando T-SNE no problema 
 
+<img src="images/T-sne.png">
+
+### GridSearchCV: é uma ferramenta poderosa!
+
+<img src="images/GridSearchCV.png">
+
+
+## Resultados Obtidos
+
+### Modelo com kernel linear 
+<img src="images/matrix_linear.png">
+
+### MOdelo com kernel Kernel RBF
+<img src="images/matrix_rbf.png">
 
 ## Referências
 
 - WIKIPÉDIA. *Haliotis*. Disponível em: <https://pt.wikipedia.org/wiki/Haliotis>.
 - kaggle. Disponível em: <https://www.kaggle.com/code/sanchitvj/abalone-age-prediction/notebook>
+- Scikit learn. *Documentação*. Disponível em : <https://scikit-learn.org/stable/modules/svm.html#tips-on-practical-use>
+- Peplow, M. (2006). Synthetic biology: The best of both worlds. Nature Biotechnology, 24(12), 1565. <https://doi.org/10.1038/nbt1206-1565>
+- Stelling, R. (Data da publicação não especificada). t-SNE. Observable. <https://observablehq.com/@robstelling/t-sne#tsneAlgoritmo1>
